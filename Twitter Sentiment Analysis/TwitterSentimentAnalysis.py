@@ -4,12 +4,12 @@ import csv
 from textblob import TextBlob
 
 #Chiave dell'API pubblica e privata
-consumerKey = "PsBLOQUyBPOCgKkYqb3rfRgJb"
-consumerSecret = "nkhwureof74Gz7OQ44UseLUIxo8x5tKUWviTFmv2LfoAzKiQid"
+consumerKey = ""
+consumerSecret = ""
 
 #Token pubblico e privato per l'accesso
-accessToken = "4187906367-2dlsIKz9XAuiS7TsJunkfXWJgZ160g9EXJtosQg"
-accessTokenSecret = "cLzcs0ol43V7e318WFnOm792ApdvjP6AySEFOMre6JHxa"
+accessToken = ""
+accessTokenSecret = ""
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
